@@ -3,7 +3,7 @@
   * @file    rnd_number.c
   * @author  Justin Stadlbauer
   * @version V1.1.0
-  * @date    19-February-2018
+  * @date    19-February-2018 / IoT Boise State University
   * @brief   Publishes a random number to AWS
   ******************************************************************************
   */
