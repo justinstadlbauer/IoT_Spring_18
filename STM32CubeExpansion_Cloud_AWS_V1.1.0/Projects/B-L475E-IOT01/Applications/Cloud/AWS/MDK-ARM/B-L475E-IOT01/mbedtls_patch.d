@@ -1,0 +1,17 @@
+b-l475e-iot01\mbedtls_patch.o: ../../../../../Common/Shared/Src/mbedtls_patch.c
+b-l475e-iot01\mbedtls_patch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+b-l475e-iot01\mbedtls_patch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+b-l475e-iot01\mbedtls_patch.o: ../../../../../Common/Shared/inc/firewall_wrapper.h
+b-l475e-iot01\mbedtls_patch.o: ../../../../../../Middlewares/Third_Party/mbedTLS/include/mbedtls/pk_internal.h
+b-l475e-iot01\mbedtls_patch.o: ../../../../../Common/AWS/inc/aws_mbedtls_config.h
+b-l475e-iot01\mbedtls_patch.o: ../../../../../../Middlewares/Third_Party/mbedTLS/include/mbedtls/check_config.h
+b-l475e-iot01\mbedtls_patch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+b-l475e-iot01\mbedtls_patch.o: ../../../../../../Middlewares/Third_Party/mbedTLS/include/mbedtls/pk.h
+b-l475e-iot01\mbedtls_patch.o: ../../../../../../Middlewares/Third_Party/mbedTLS/include/mbedtls/md.h
+b-l475e-iot01\mbedtls_patch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+b-l475e-iot01\mbedtls_patch.o: ../../../../../../Middlewares/Third_Party/mbedTLS/include/mbedtls/rsa.h
+b-l475e-iot01\mbedtls_patch.o: ../../../../../../Middlewares/Third_Party/mbedTLS/include/mbedtls/bignum.h
+b-l475e-iot01\mbedtls_patch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+b-l475e-iot01\mbedtls_patch.o: ../../../../../../Middlewares/Third_Party/mbedTLS/include/mbedtls/ecp.h
+b-l475e-iot01\mbedtls_patch.o: ../../../../../../Middlewares/Third_Party/mbedTLS/include/mbedtls/ecdsa.h
+b-l475e-iot01\mbedtls_patch.o: ../../../../../Common/Shared/inc/msg.h

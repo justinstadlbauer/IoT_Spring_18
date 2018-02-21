@@ -1,0 +1,9 @@
+b-l475e-iot01\platform.o: ../../../../../../Middlewares/Third_Party/mbedTLS/library/platform.c
+b-l475e-iot01\platform.o: ../../../../../Common/AWS/inc/aws_mbedtls_config.h
+b-l475e-iot01\platform.o: ../../../../../../Middlewares/Third_Party/mbedTLS/include/mbedtls/check_config.h
+b-l475e-iot01\platform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+b-l475e-iot01\platform.o: ../../../../../../Middlewares/Third_Party/mbedTLS/include/mbedtls/platform.h
+b-l475e-iot01\platform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+b-l475e-iot01\platform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+b-l475e-iot01\platform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+b-l475e-iot01\platform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
