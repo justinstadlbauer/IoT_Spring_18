@@ -64,7 +64,7 @@ int subscribe_publish_sensor_values(void);
 
 /* Private defines ------------------------------------------------------------*/
 #define MQTT_CONNECT_MAX_ATTEMPT_COUNT 3
-#define TIMER_COUNT_FOR_SENSOR_PUBLISH 5
+#define TIMER_COUNT_FOR_SENSOR_PUBLISH 3
 
 #define aws_json_pre        "{\"state\":{\"reported\":"
 #define aws_json_desired    "{\"state\":{\"desired\":"
@@ -79,7 +79,7 @@ static char cSTopicName[MAX_SHADOW_TOPIC_LENGTH_BYTES] = "";
 /**
 * @brief This parameter will avoid infinite loop of publish and exit the program after certain number of publishes
 */
-static uint32_t publishCount = 60;
+static uint32_t publishCount = 100;
 
 /* Functions Definition ------------------------------------------------------*/
 
@@ -397,7 +397,7 @@ int subscribe_publish_sensor_values(void)
     {
       timeCounter = 0;
             
-      PrepareMqttPayload1(cPayload, sizeof(cPayload), NULL);
+      PrepareMqttPayload(cPayload, sizeof(cPayload), NULL);
             
       paramsQOS1.payloadLen = strlen(cPayload) + 1;
             
