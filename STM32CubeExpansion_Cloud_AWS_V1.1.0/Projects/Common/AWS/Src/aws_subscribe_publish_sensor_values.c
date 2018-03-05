@@ -79,7 +79,7 @@ static char cSTopicName[MAX_SHADOW_TOPIC_LENGTH_BYTES] = "";
 /**
 * @brief This parameter will avoid infinite loop of publish and exit the program after certain number of publishes
 */
-static uint32_t publishCount = 100;
+static uint32_t publishCount = 150;
 
 /* Functions Definition ------------------------------------------------------*/
 
