@@ -64,7 +64,7 @@ int subscribe_publish_sensor_values(void);
 
 /* Private defines ------------------------------------------------------------*/
 #define MQTT_CONNECT_MAX_ATTEMPT_COUNT 3
-#define TIMER_COUNT_FOR_SENSOR_PUBLISH 3
+#define TIMER_COUNT_FOR_SENSOR_PUBLISH 1
 
 #define aws_json_pre        "{\"state\":{\"reported\":"
 #define aws_json_desired    "{\"state\":{\"desired\":"
